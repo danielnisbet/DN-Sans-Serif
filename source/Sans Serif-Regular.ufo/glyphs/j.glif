@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="j" format="2">
+	<advance width="328"/>
+	<unicode hex="006A"/>
+	<outline>
+		<contour>
+			<point x="192" y="648" type="curve" smooth="yes"/>
+			<point x="222" y="648"/>
+			<point x="246" y="673"/>
+			<point x="246" y="703" type="curve" smooth="yes"/>
+			<point x="246" y="733"/>
+			<point x="222" y="758"/>
+			<point x="192" y="758" type="curve" smooth="yes"/>
+			<point x="162" y="758"/>
+			<point x="136" y="733"/>
+			<point x="136" y="703" type="curve" smooth="yes"/>
+			<point x="136" y="673"/>
+			<point x="162" y="648"/>
+		</contour>
+		<contour>
+			<point x="75" y="-120" type="curve"/>
+			<point x="75" y="-200" type="line"/>
+			<point x="181" y="-200"/>
+			<point x="253" y="-135"/>
+			<point x="253" y="6" type="curve"/>
+			<point x="168" y="6" type="line"/>
+			<point x="168" y="-83"/>
+			<point x="124" y="-120"/>
+		</contour>
+		<contour>
+			<point x="168" y="-5" type="line"/>
+			<point x="253" y="-5" type="line"/>
+			<point x="253" y="500" type="line"/>
+			<point x="168" y="500" type="line"/>
+		</contour>
+		<contour>
+			<point x="75" y="500" type="line"/>
+			<point x="75" y="430" type="line"/>
+			<point x="195" y="430" type="line"/>
+			<point x="195" y="500" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>n</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>n</string>
+		</dict>
+	</lib>
+</glyph>

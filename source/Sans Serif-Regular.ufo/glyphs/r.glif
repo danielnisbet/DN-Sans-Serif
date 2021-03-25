@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="r" format="2">
+	<advance width="430"/>
+	<unicode hex="0072"/>
+	<outline>
+		<contour>
+			<point x="75" y="500" type="line"/>
+			<point x="75" y="0" type="line"/>
+			<point x="160" y="0" type="line"/>
+			<point x="160" y="500" type="line"/>
+		</contour>
+		<contour>
+			<point x="128" y="154" type="curve"/>
+			<point x="160" y="155" type="line"/>
+			<point x="160" y="354"/>
+			<point x="222" y="435"/>
+			<point x="390" y="435" type="curve"/>
+			<point x="390" y="505" type="line"/>
+			<point x="169" y="505"/>
+			<point x="128" y="343"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>n</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>o</string>
+		</dict>
+	</lib>
+</glyph>

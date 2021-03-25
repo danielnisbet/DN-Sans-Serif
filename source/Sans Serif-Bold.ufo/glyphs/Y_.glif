@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Y" format="2">
+	<advance width="732"/>
+	<unicode hex="0059"/>
+	<outline>
+		<contour>
+			<point x="417" y="248" type="line"/>
+			<point x="687" y="700" type="line"/>
+			<point x="549" y="700" type="line"/>
+			<point x="328" y="315" type="line"/>
+			<point x="300" y="248" type="line"/>
+		</contour>
+		<contour>
+			<point x="432" y="248" type="line"/>
+			<point x="412" y="305" type="line"/>
+			<point x="188" y="700" type="line"/>
+			<point x="45" y="700" type="line"/>
+			<point x="310" y="248" type="line"/>
+		</contour>
+		<contour>
+			<point x="301" y="289" type="line"/>
+			<point x="301" y="0" type="line"/>
+			<point x="426" y="0" type="line"/>
+			<point x="426" y="289" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>=O*.75</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=O*.75</string>
+		</dict>
+	</lib>
+</glyph>

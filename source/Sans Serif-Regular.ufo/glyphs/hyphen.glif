@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hyphen" format="2">
+	<advance width="410"/>
+	<unicode hex="002D"/>
+	<outline>
+		<contour>
+			<point x="45" y="389" type="line"/>
+			<point x="45" y="319" type="line"/>
+			<point x="365" y="319" type="line"/>
+			<point x="365" y="389" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>O</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>O</string>
+		</dict>
+	</lib>
+</glyph>

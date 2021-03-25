@@ -1,0 +1,52 @@
+languagesystem DFLT dflt;
+
+feature aalt {
+feature salt;
+feature ss01;
+
+} aalt ;
+
+feature salt {
+sub a by a.ss01;
+
+} salt ;
+
+feature ss01 {
+sub a by a.ss01;
+
+} ss01 ;
+
+@MMK_L_A = [ A ];
+@MMK_L_B = [ B ];
+@MMK_L_O = [ D O Q ];
+@MMK_L_P = [ P ];
+@MMK_L_V = [ F V W Y ];
+@MMK_R_A = [ A ];
+@MMK_R_O = [ C G O Q ];
+@MMK_R_V = [ V W Y ];
+
+feature kern {
+	lookup kern_latn {
+	lookupflag IgnoreMarks;
+		pos A V -70;
+		pos A W -70;
+		pos A Y -70;
+		pos F A -80;
+		pos S T -20;
+		pos T S -20;
+		pos V A -80;
+		pos W A -80;
+		pos Y A -80;
+	subtable;
+		pos @MMK_L_A T -90;
+		pos @MMK_L_B @MMK_R_A -10;
+		pos @MMK_L_O T -40;
+		pos @MMK_L_P @MMK_R_A -65;
+		pos L @MMK_R_V -70;
+		pos T @MMK_R_A -90;
+		pos T @MMK_R_O -40;
+	subtable;
+	} kern_latn;
+	lookupflag 0;
+} kern;
+
